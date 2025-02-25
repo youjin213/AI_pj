@@ -22,7 +22,7 @@ K-Digital AI Bootcamp Final Project (2025 오세돌 최종 프로젝트)
 - [`Flutter`](https://freeinformation.tistory.com/entry/Flutter-%ED%94%8C%EB%9F%AC%ED%84%B0-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%84%A4%EC%B9%98)
 - [`Android Studio(에뮬레이터까지 생성)`](https://freeinformation.tistory.com/entry/Flutter-%ED%94%8C%EB%9F%AC%ED%84%B0-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%84%A4%EC%B9%98)
 - [`Python 3.12`](https://github.com/conda-forge, "conda-forge")
-- [`ram`](git+https://github.com/xinyu1205/recognize-anything.git)
+- [`ram`](https://github.com/xinyu1205/recognize-anything.git)
 - **DB** : 벡터db, Firebase
 - **패키지 매니저** : pip
 
@@ -47,6 +47,12 @@ K-Digital AI Bootcamp Final Project (2025 오세돌 최종 프로젝트)
    
    conda activate zim
    ```
+
+2. ram 설치
+   ```
+   git+https://github.com/xinyu1205/recognize-anything.git
+   ```
+   
 3. dependencies 설치
 
    requirements.txt 파일 가지고 있는 상태에서

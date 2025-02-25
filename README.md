@@ -42,7 +42,7 @@ K-Digital AI Bootcamp Final Project (2025 오세돌 최종 프로젝트)
 
 ## ✔️ 사용법
 1. cmd로 가상환경 만들기
-   ```bash
+   ```
    conda create --name zim python==3.10
    
    conda activate zim
@@ -52,20 +52,30 @@ K-Digital AI Bootcamp Final Project (2025 오세돌 최종 프로젝트)
    ```
    git+https://github.com/xinyu1205/recognize-anything.git
    ```
+
+
+   2-1. 2번이 안될 시
+      ```
+      git clone https://github.com/xinyu1205/recognize-anything.git
+
+      cd recognize-anything
+
+      pip install -e .
+      ```
    
-3. dependencies 설치
+4. dependencies 설치
 
    requirements.txt 파일 가지고 있는 상태에서
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
-4. api key 삽입
+5. api key 삽입
 
    api key 넣는 부분에 넣어주기 (그냥 올릴거면 삭제하기)
 
 
-5. 실행
+6. 실행
    
    에뮬레이터 실행 후
    ```
